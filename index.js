@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const debtorsTableBody = document.getElementById('debtors-table').querySelector('tbody');
     
     let timer;
-    let timeRemaining = 120; // 2 minutes
+    let timeRemaining = 1200; // 2 minutes
 
 
     const checkInitialSetup = () => {
